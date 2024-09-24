@@ -107,7 +107,7 @@ title: Fractional Tools
       <div class="card mb-4 rounded-3 shadow-sm">
         <div class="card-header py-3">
           <h4 class="my-0 fw-normal">
-            Customizable Financial Model
+            Customiz  able Financial Model
           </h4>
         </div>
         <div class="card-body">
