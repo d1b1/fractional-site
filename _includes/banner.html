@@ -1,0 +1,35 @@
+<body>
+
+  {% include svgs.html %}
+
+  {% include colors.html %}
+
+  <div class="container py-3">
+    <header>
+      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+          &nbsp;
+          <span class="fs-4">Fractional.tools</span>
+        </a>
+        <style>
+          .fs-7 {
+            font-size: 14px;
+          }
+        </style>
+        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none fs-7" href="/#mission">Mission</a>
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none fs-7" href="/#solution">Solution</a>
+          <a class="me-3 py-2 link-body-emphasis text-decoration-none fs-7" href="/#blog">Fractional 101</a>
+        </nav>
+      </div>
+      
+      <div class="pricing-header p-3 pb-md-4 mt-5 mx-auto text-center">
+        <h1 class="display-4 fw-normal text-body-emphasis">
+          {{ page.title }}
+        </h1>
+        <p class="fs-5 mt-4 text-body-secondary">
+          {{ page.subtitle }}
+        </p>
+      </div>
+
+      <hr>

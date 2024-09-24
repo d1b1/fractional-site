@@ -1,0 +1,9 @@
+{
+  "name": "fractional-tools-site",
+  "dependencies": {
+    "servdir": "^0.0.3"
+  },
+  "scripts": {
+    "start": "jekyll serve"
+  }
+}
